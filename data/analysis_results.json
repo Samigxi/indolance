@@ -1,0 +1,1102 @@
+{
+  "timestamp": "2026-04-28T20:57:41.276695",
+  "local_originality_score": 100.0,
+  "global_originality_score": 70.8,
+  "local_plagiarism_pct": 0.0,
+  "global_plagiarism_pct": 29.2,
+  "local_max_similarity": 0.0,
+  "local_avg_similarity": 0.0,
+  "local_similar_files": [
+    {
+      "filename": "research_notes.md",
+      "source_file": "E:\\Code\\PBL 2 Indolance\\sample_files\\research_notes.md",
+      "similarity": 0.0,
+      "status": "Original",
+      "snippet": "Sample Research Notes IoT Edge Computing Security Author Research Team Date 2025-03-15 Topic Secure Edge Computing for IoT Networks Abstract This research explores the intersection of edge computing a"
+    },
+    {
+      "filename": "sample_code.py",
+      "source_file": "E:\\Code\\PBL 2 Indolance\\sample_files\\sample_code.py",
+      "similarity": 0.0,
+      "status": "Original",
+      "snippet": "Sample Research Project IoT Network Security Monitor A proof-of-concept embedded system that uses an ATECC608A cryptographic chip for secure key storage combined with PCAP-based network traffic analys"
+    }
+  ],
+  "local_file_count": 2,
+  "global_max_similarity": 0.4751,
+  "global_avg_similarity": 0.0327,
+  "global_similar_items": [
+    {
+      "title": "An association between accessing lecture recordings, but not lecture attendance, and overall marks for optometry students in a pharmacology course",
+      "snippet": "Abstract\n        Background: Most studies, in the absence and presence of lecture recordings, have shown that there is an association between lecture attendance and academic performance for students of the biological sciences, but it is not known whether this occurs when lecture attendance is low. The effect of accessing lecture recordings on academic outcomes is not clear. The aims were (i) to determine any association between lecture attendance and academic outcomes for students who had access",
+      "url": "https://doi.org/10.21203/rs.3.rs-118346/v1",
+      "year": null,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "I am building an app for MITWPU students where they can track their marks lecture attendance and res",
+      "keywords": [
+        "association",
+        "accessing",
+        "lecture",
+        "recordings",
+        "lecture",
+        "attendance",
+        "overall",
+        "marks",
+        "optometry",
+        "students",
+        "pharmacology",
+        "course",
+        "abstract",
+        "background",
+        "studies"
+      ],
+      "scraped_at": "2026-04-28T20:55:47.513633",
+      "similarity": 0.4751,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "Can Australian Universities Take Measures to Increase the Lecture Attendance of Marketing Students?",
+      "snippet": " Lectures are a central element of traditional university learning, but Australian lecturers increasingly face very low levels of lecture attendance. A significant amount of research exists that investigates the drivers of lecture attendance. However, those studies typically study single factors in an isolated manner, thus overestimating the importance of individual factors. This study contributes to the understanding of lecture attendance (and nonattendance) by including a range of factors that",
+      "url": "https://doi.org/10.1177/0273475309345202",
+      "year": 2009,
+      "citations": 28,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "I am building an app for MITWPU students where they can track their marks lecture attendance and res",
+      "keywords": [
+        "australian",
+        "universities",
+        "measures",
+        "increase",
+        "lecture",
+        "attendance",
+        "marketing",
+        "students",
+        "lectures",
+        "central",
+        "element",
+        "traditional",
+        "university",
+        "learning",
+        "australian"
+      ],
+      "scraped_at": "2026-04-28T20:55:47.513807",
+      "similarity": 0.4451,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "Donkie/Spoolman",
+      "snippet": "Keep track of your inventory of 3D-printer filament spools.",
+      "url": "https://github.com/Donkie/Spoolman",
+      "year": 2023,
+      "stars": 2390,
+      "forks": 240,
+      "language": "Python",
+      "topics": [
+        "3d-printing",
+        "database",
+        "inventory",
+        "service"
+      ],
+      "source": "github",
+      "source_label": "GitHub Repository",
+      "query": "tracker database",
+      "keywords": [
+        "donkie",
+        "spoolman",
+        "track",
+        "inventory",
+        "d-printer",
+        "filament",
+        "spools",
+        "python",
+        "d-printing",
+        "database",
+        "inventory",
+        "service"
+      ],
+      "scraped_at": "2026-04-28T20:57:33.042772",
+      "similarity": 0.2695,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "Building a Student Attendance Tracker - Medium",
+      "snippet": "Hello everyone! I'm Mathew Joby, a Computer Science and Engineeringstudentfrom Muthoot Institute of technology and science . In this blog post, I want to share a little bit about my journey of ...",
+      "url": "https://medium.com/@24cs016/building-a-student-attendance-tracker-my-first-step-into-real-world-problem-solving-da42a74ec53f",
+      "year": null,
+      "source": "web",
+      "source_label": "Web Result",
+      "query": "I am building an app for MITWPU students where they can track their marks lecture attendance and res",
+      "keywords": [
+        "building",
+        "student",
+        "attendance",
+        "tracker",
+        "medium",
+        "hello",
+        "everyone",
+        "mathew",
+        "joby",
+        "computer",
+        "science",
+        "engineeringstudentfrom",
+        "muthoot",
+        "institute",
+        "technology"
+      ],
+      "scraped_at": "2026-04-28T20:55:56.158282",
+      "similarity": 0.264,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "Behavioural science can help make the UK\u2019s track and trace app a success \u2013 here\u2019s how",
+      "snippet": "",
+      "url": "https://doi.org/10.64628/ab.n4ks36mkt",
+      "year": null,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "I am building an app for MITWPU students where they can track their marks lecture attendance and res",
+      "keywords": [
+        "behavioural",
+        "science",
+        "track",
+        "trace",
+        "app",
+        "success"
+      ],
+      "scraped_at": "2026-04-28T20:55:47.513676",
+      "similarity": 0.2562,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "suhanigaikwad71-cpu/attaendance",
+      "snippet": "",
+      "url": "https://github.com/suhanigaikwad71-cpu/attaendance",
+      "year": 2026,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "topics": [],
+      "source": "github",
+      "source_label": "GitHub Repository",
+      "query": "attaendance",
+      "keywords": [
+        "suhanigaikwad71-cpu",
+        "attaendance"
+      ],
+      "scraped_at": "2026-04-28T20:57:35.357950",
+      "similarity": 0.2459,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "randyroger94/attaendance-rn",
+      "snippet": "",
+      "url": "https://github.com/randyroger94/attaendance-rn",
+      "year": 2025,
+      "stars": 0,
+      "forks": 0,
+      "language": "HTML",
+      "topics": [],
+      "source": "github",
+      "source_label": "GitHub Repository",
+      "query": "attaendance",
+      "keywords": [
+        "randyroger94",
+        "attaendance-rn",
+        "html"
+      ],
+      "scraped_at": "2026-04-28T20:57:35.357956",
+      "similarity": 0.2459,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "harshitagrawalprogo/IndproBuddyPro",
+      "snippet": "The is an attaendance system ",
+      "url": "https://github.com/harshitagrawalprogo/IndproBuddyPro",
+      "year": 2025,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "source": "github",
+      "source_label": "GitHub Repository",
+      "query": "attaendance",
+      "keywords": [
+        "harshitagrawalprogo",
+        "indprobuddypro",
+        "attaendance",
+        "typescript"
+      ],
+      "scraped_at": "2026-04-28T20:57:35.357972",
+      "similarity": 0.2459,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "yusron007/case_live-attaendance",
+      "snippet": "",
+      "url": "https://github.com/yusron007/case_live-attaendance",
+      "year": 2024,
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "source": "github",
+      "source_label": "GitHub Repository",
+      "query": "attaendance",
+      "keywords": [
+        "yusron007",
+        "live-attaendance",
+        "typescript"
+      ],
+      "scraped_at": "2026-04-28T20:57:35.357988",
+      "similarity": 0.2459,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "Jaydeep-sudo/attaendance-atomation",
+      "snippet": "",
+      "url": "https://github.com/Jaydeep-sudo/attaendance-atomation",
+      "year": 2025,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "topics": [],
+      "source": "github",
+      "source_label": "GitHub Repository",
+      "query": "attaendance",
+      "keywords": [
+        "jaydeep-sudo",
+        "attaendance-atomation",
+        "python"
+      ],
+      "scraped_at": "2026-04-28T20:57:35.357963",
+      "similarity": 0.2278,
+      "status": "Similar Work Found"
+    },
+    {
+      "title": "Can Applied STEM Coursework Improve Attendance for Low-Income Students?",
+      "snippet": "",
+      "url": "https://doi.org/10.3102/1569361",
+      "year": 2020,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "I am building an app for MITWPU students where they can track their marks lecture attendance and res",
+      "keywords": [
+        "applied",
+        "stem",
+        "coursework",
+        "improve",
+        "attendance",
+        "low-income",
+        "students"
+      ],
+      "scraped_at": "2026-04-28T20:55:47.513685",
+      "similarity": 0.197,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "Parking app can predict when a spot will open up",
+      "snippet": "",
+      "url": "https://doi.org/10.1016/s0262-4079(13)62584-1",
+      "year": 2013,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "I am building an app for MITWPU students where they can track their marks lecture attendance and res",
+      "keywords": [
+        "parking",
+        "app",
+        "predict",
+        "spot"
+      ],
+      "scraped_at": "2026-04-28T20:55:47.513830",
+      "similarity": 0.1903,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "DBMS Tutorial",
+      "snippet": "DBMSCharacteristics A database is a collection of related data and data is a collection of facts and figures that can be processed to produce information. Mostly, data represents recordable facts. Data aids in producing information, which is based on facts. For example, if we have data about marks obtained by all students, we can then conclude about toppers and average marks.",
+      "url": "https://www.tutorialspoint.com/dbms/index.htm",
+      "year": null,
+      "source": "web",
+      "source_label": "Web Result",
+      "query": "dbms",
+      "keywords": [
+        "dbms",
+        "tutorial",
+        "dbmscharacteristics",
+        "database",
+        "collection",
+        "related",
+        "collection",
+        "facts",
+        "figures",
+        "processed",
+        "produce",
+        "information",
+        "mostly",
+        "represents",
+        "recordable"
+      ],
+      "scraped_at": "2026-04-28T20:57:18.013009",
+      "similarity": 0.1896,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "Turning Point  Building a Future Where All Can Thrive",
+      "snippet": "",
+      "url": "https://doi.org/10.4324/9781003579403-6",
+      "year": 2024,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "I am building an app for MITWPU students where they can track their marks lecture attendance and res",
+      "keywords": [
+        "turning",
+        "building",
+        "future",
+        "thrive"
+      ],
+      "scraped_at": "2026-04-28T20:55:47.513815",
+      "similarity": 0.1866,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "What is DBMS (Database Management System)? - Guru99",
+      "snippet": "What isDBMS? Database Management System (DBMS) is software for storing and retrieving users' data while applying appropriate security measures. It consists of a group of programs that manipulate the database. TheDBMSaccepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, aDBMShelps users and other third-party ...",
+      "url": "https://www.guru99.com/what-is-dbms.html",
+      "year": null,
+      "source": "web",
+      "source_label": "Web Result",
+      "query": "dbms",
+      "keywords": [
+        "dbms",
+        "database",
+        "management",
+        "guru99",
+        "isdbms",
+        "database",
+        "management",
+        "dbms",
+        "software",
+        "storing",
+        "retrieving",
+        "users",
+        "applying",
+        "appropriate",
+        "security"
+      ],
+      "scraped_at": "2026-04-28T20:57:18.013352",
+      "similarity": 0.1848,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "kiranmc/AttaendanceManagementSystem",
+      "snippet": "Attendance Management System",
+      "url": "https://github.com/kiranmc/AttaendanceManagementSystem",
+      "year": 2018,
+      "stars": 0,
+      "forks": 0,
+      "language": "",
+      "topics": [],
+      "source": "github",
+      "source_label": "GitHub Repository",
+      "query": "attaendance",
+      "keywords": [
+        "kiranmc",
+        "attaendancemanagementsystem",
+        "attendance",
+        "management"
+      ],
+      "scraped_at": "2026-04-28T20:57:35.357943",
+      "similarity": 0.1748,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "database management system (DBMS) - TechTarget",
+      "snippet": "What is a database management system (DBMS)? A database management system (DBMS) is a software system for creating and managing databases. ADBMSenables end users to create, protect, read, update and delete data in a database. It also manages security, data integrity and concurrency for databases.",
+      "url": "https://www.techtarget.com/searchdatamanagement/definition/database-management-system",
+      "year": null,
+      "source": "web",
+      "source_label": "Web Result",
+      "query": "dbms",
+      "keywords": [
+        "database",
+        "management",
+        "dbms",
+        "techtarget",
+        "database",
+        "management",
+        "dbms",
+        "database",
+        "management",
+        "dbms",
+        "software",
+        "creating",
+        "managing",
+        "databases",
+        "adbmsenables"
+      ],
+      "scraped_at": "2026-04-28T20:57:18.013101",
+      "similarity": 0.1683,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "Spatial DBMS",
+      "snippet": "",
+      "url": "https://doi.org/10.1007/springerreference_62918",
+      "year": null,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "dbms",
+      "keywords": [
+        "spatial",
+        "dbms"
+      ],
+      "scraped_at": "2026-04-28T20:57:10.396178",
+      "similarity": 0.1646,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "Staged DBMS",
+      "snippet": "",
+      "url": "https://doi.org/10.1007/springerreference_63734",
+      "year": null,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "dbms",
+      "keywords": [
+        "staged",
+        "dbms"
+      ],
+      "scraped_at": "2026-04-28T20:57:10.396201",
+      "similarity": 0.1646,
+      "status": "Potentially Original"
+    },
+    {
+      "title": "DBMS",
+      "snippet": "",
+      "url": "https://doi.org/10.1007/springerreference_64765",
+      "year": null,
+      "citations": 0,
+      "source": "crossref",
+      "source_label": "Published Work",
+      "query": "dbms",
+      "keywords": [
+        "dbms"
+      ],
+      "scraped_at": "2026-04-28T20:57:10.396215",
+      "similarity": 0.1646,
+      "status": "Potentially Original"
+    }
+  ],
+  "global_result_count": 374,
+  "plagiarism_sources": [
+    {
+      "title": "An association between accessing lecture recordings, but not lecture attendance, and overall marks for optometry students in a pharmacology course",
+      "url": "https://doi.org/10.21203/rs.3.rs-118346/v1",
+      "similarity_pct": 47.5,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": "Abstract\n        Background: Most studies, in the absence and presence of lecture recordings, have shown that there is an association between lecture attendance and academic performance for students of the biological sciences, but it is not known whe"
+    },
+    {
+      "title": "Can Australian Universities Take Measures to Increase the Lecture Attendance of Marketing Students?",
+      "url": "https://doi.org/10.1177/0273475309345202",
+      "similarity_pct": 44.5,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": 2009,
+      "citations": 28,
+      "stars": 0,
+      "snippet": " Lectures are a central element of traditional university learning, but Australian lecturers increasingly face very low levels of lecture attendance. A significant amount of research exists that investigates the drivers of lecture attendance. However"
+    },
+    {
+      "title": "Donkie/Spoolman",
+      "url": "https://github.com/Donkie/Spoolman",
+      "similarity_pct": 26.9,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2023,
+      "citations": 0,
+      "stars": 2390,
+      "snippet": "Keep track of your inventory of 3D-printer filament spools."
+    },
+    {
+      "title": "Building a Student Attendance Tracker - Medium",
+      "url": "https://medium.com/@24cs016/building-a-student-attendance-tracker-my-first-step-into-real-world-problem-solving-da42a74ec53f",
+      "similarity_pct": 26.4,
+      "source_type": "web",
+      "source_label": "Web Result",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": "Hello everyone! I'm Mathew Joby, a Computer Science and Engineeringstudentfrom Muthoot Institute of technology and science . In this blog post, I want to share a little bit about my journey of ..."
+    },
+    {
+      "title": "Behavioural science can help make the UK\u2019s track and trace app a success \u2013 here\u2019s how",
+      "url": "https://doi.org/10.64628/ab.n4ks36mkt",
+      "similarity_pct": 25.6,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "suhanigaikwad71-cpu/attaendance",
+      "url": "https://github.com/suhanigaikwad71-cpu/attaendance",
+      "similarity_pct": 24.6,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2026,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "randyroger94/attaendance-rn",
+      "url": "https://github.com/randyroger94/attaendance-rn",
+      "similarity_pct": 24.6,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2025,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "harshitagrawalprogo/IndproBuddyPro",
+      "url": "https://github.com/harshitagrawalprogo/IndproBuddyPro",
+      "similarity_pct": 24.6,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2025,
+      "citations": 0,
+      "stars": 0,
+      "snippet": "The is an attaendance system "
+    },
+    {
+      "title": "yusron007/case_live-attaendance",
+      "url": "https://github.com/yusron007/case_live-attaendance",
+      "similarity_pct": 24.6,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2024,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "Jaydeep-sudo/attaendance-atomation",
+      "url": "https://github.com/Jaydeep-sudo/attaendance-atomation",
+      "similarity_pct": 22.8,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2025,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "Can Applied STEM Coursework Improve Attendance for Low-Income Students?",
+      "url": "https://doi.org/10.3102/1569361",
+      "similarity_pct": 19.7,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": 2020,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "Parking app can predict when a spot will open up",
+      "url": "https://doi.org/10.1016/s0262-4079(13)62584-1",
+      "similarity_pct": 19.0,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": 2013,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "DBMS Tutorial",
+      "url": "https://www.tutorialspoint.com/dbms/index.htm",
+      "similarity_pct": 19.0,
+      "source_type": "web",
+      "source_label": "Web Result",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": "DBMSCharacteristics A database is a collection of related data and data is a collection of facts and figures that can be processed to produce information. Mostly, data represents recordable facts. Data aids in producing information, which is based on"
+    },
+    {
+      "title": "Turning Point  Building a Future Where All Can Thrive",
+      "url": "https://doi.org/10.4324/9781003579403-6",
+      "similarity_pct": 18.7,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": 2024,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "What is DBMS (Database Management System)? - Guru99",
+      "url": "https://www.guru99.com/what-is-dbms.html",
+      "similarity_pct": 18.5,
+      "source_type": "web",
+      "source_label": "Web Result",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": "What isDBMS? Database Management System (DBMS) is software for storing and retrieving users' data while applying appropriate security measures. It consists of a group of programs that manipulate the database. TheDBMSaccepts the request for data from "
+    },
+    {
+      "title": "kiranmc/AttaendanceManagementSystem",
+      "url": "https://github.com/kiranmc/AttaendanceManagementSystem",
+      "similarity_pct": 17.5,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2018,
+      "citations": 0,
+      "stars": 0,
+      "snippet": "Attendance Management System"
+    },
+    {
+      "title": "database management system (DBMS) - TechTarget",
+      "url": "https://www.techtarget.com/searchdatamanagement/definition/database-management-system",
+      "similarity_pct": 16.8,
+      "source_type": "web",
+      "source_label": "Web Result",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": "What is a database management system (DBMS)? A database management system (DBMS) is a software system for creating and managing databases. ADBMSenables end users to create, protect, read, update and delete data in a database. It also manages security"
+    },
+    {
+      "title": "Spatial DBMS",
+      "url": "https://doi.org/10.1007/springerreference_62918",
+      "similarity_pct": 16.5,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "Staged DBMS",
+      "url": "https://doi.org/10.1007/springerreference_63734",
+      "similarity_pct": 16.5,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "DBMS",
+      "url": "https://doi.org/10.1007/springerreference_64765",
+      "similarity_pct": 16.5,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "DBMS Component",
+      "url": "https://doi.org/10.1007/springerreference_63744",
+      "similarity_pct": 16.5,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "GIS versus CAD versus DBMS: what are the differences?",
+      "url": "https://doi.org/10.1201/b12579-11",
+      "similarity_pct": 16.5,
+      "source_type": "openalex",
+      "source_label": "Academic Paper",
+      "year": 1990,
+      "citations": 315,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "MadeBaruna/paimon-moe",
+      "url": "https://github.com/MadeBaruna/paimon-moe",
+      "similarity_pct": 15.9,
+      "source_type": "github",
+      "source_label": "GitHub Repository",
+      "year": 2020,
+      "citations": 0,
+      "stars": 1511,
+      "snippet": "Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter."
+    },
+    {
+      "title": "Cybersecurity Origins",
+      "url": "https://doi.org/10.7551/mitpress/11656.003.0003",
+      "similarity_pct": 15.3,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": 2021,
+      "citations": 1,
+      "stars": 0,
+      "snippet": ""
+    },
+    {
+      "title": "Cybersecurity and sovereignty",
+      "url": "https://doi.org/10.51174/ajdss.0302/vjiq5734",
+      "similarity_pct": 15.3,
+      "source_type": "crossref",
+      "source_label": "Published Work",
+      "year": null,
+      "citations": 0,
+      "stars": 0,
+      "snippet": ""
+    }
+  ],
+  "total_user_keywords": 13,
+  "total_global_keywords": 50,
+  "overlap_count": 5,
+  "overlap_keywords": [
+    "app",
+    "attendance",
+    "cybersecurity",
+    "database",
+    "dbms"
+  ],
+  "only_local": [
+    "attaendance",
+    "building",
+    "lecture",
+    "marks",
+    "mitwpu",
+    "students",
+    "track",
+    "tracker"
+  ],
+  "only_global": [
+    "access",
+    "algorithms",
+    "applications",
+    "artificial",
+    "awesome",
+    "cloud",
+    "computer",
+    "computing",
+    "design",
+    "development",
+    "devices",
+    "distributed",
+    "embedded",
+    "github",
+    "intelligence",
+    "internet",
+    "iot",
+    "learn",
+    "learning",
+    "machine"
+  ],
+  "gaps": [
+    {
+      "keyword": "security",
+      "global_frequency": 104,
+      "trending_score": 100.0,
+      "suggestion": "Consider exploring 'security' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "learning",
+      "global_frequency": 73,
+      "trending_score": 70.2,
+      "suggestion": "Consider exploring 'learning' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "cloud",
+      "global_frequency": 67,
+      "trending_score": 64.4,
+      "suggestion": "Consider exploring 'cloud' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "iot",
+      "global_frequency": 62,
+      "trending_score": 59.6,
+      "suggestion": "Consider exploring 'iot' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "embedded",
+      "global_frequency": 62,
+      "trending_score": 59.6,
+      "suggestion": "Consider exploring 'embedded' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "machine",
+      "global_frequency": 61,
+      "trending_score": 58.7,
+      "suggestion": "Consider exploring 'machine' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "computing",
+      "global_frequency": 60,
+      "trending_score": 57.7,
+      "suggestion": "Consider exploring 'computing' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "systems",
+      "global_frequency": 55,
+      "trending_score": 52.9,
+      "suggestion": "Consider exploring 'systems' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "network",
+      "global_frequency": 46,
+      "trending_score": 44.2,
+      "suggestion": "Consider exploring 'network' \u2014 trending globally but missing from your work."
+    },
+    {
+      "keyword": "learn",
+      "global_frequency": 29,
+      "trending_score": 27.9,
+      "suggestion": "Consider exploring 'learn' \u2014 trending globally but missing from your work."
+    }
+  ],
+  "connection_map": "img/connection_map.png",
+  "status_counts": {
+    "already_exists": 0,
+    "similar_work": 10,
+    "original": 364
+  },
+  "source_breakdown": {
+    "crossref": 71,
+    "web": 83,
+    "openalex": 99,
+    "github": 121
+  },
+  "insights": {
+    "verdict": "Moderately Original",
+    "verdict_detail": "Your idea has some overlap with existing work, but there's enough uniqueness to differentiate.",
+    "should_build": true,
+    "recommendation": "\u2705 GO AHEAD \u2014 This project is worth building.",
+    "recommendation_detail": "Your idea is original enough to stand on its own. Focus on the unique aspects and build an MVP.",
+    "pros": [
+      {
+        "title": "High Originality",
+        "detail": "With a 70.8% global originality score, your idea stands out from existing work.",
+        "icon": "\u2728"
+      },
+      {
+        "title": "Research-Backed Field",
+        "detail": "Found 13 related academic papers. This means the field is active and your work would be relevant to ongoing research.",
+        "icon": "\ud83d\udcda"
+      },
+      {
+        "title": "Room for Innovation",
+        "detail": "Found 10 trending topics not yet covered in your domain. These represent opportunities for unique contributions.",
+        "icon": "\ud83d\udca1"
+      },
+      {
+        "title": "No Direct GitHub Competitor",
+        "detail": "While related repos exist, none closely match your specific approach. You'd be filling a gap in open-source.",
+        "icon": "\ud83d\ude80"
+      },
+      {
+        "title": "Proven Demand",
+        "detail": "Related papers have 315+ citations, indicating strong interest in this area.",
+        "icon": "\ud83d\udcc8"
+      },
+      {
+        "title": "Fresh Perspective",
+        "detail": "Your idea is very different from your existing work, showing you're exploring new territory.",
+        "icon": "\ud83d\udd2c"
+      }
+    ],
+    "cons": [
+      {
+        "title": "Established Open-Source Competition",
+        "detail": "'Donkie/Spoolman' has 2390 stars on GitHub. You'd need significant improvements to compete.",
+        "icon": "\u2b50"
+      },
+      {
+        "title": "Extensive Existing Literature",
+        "detail": "Found 25 matching sources. The concept is well-explored in academic and industry work.",
+        "icon": "\ud83d\udcc4"
+      }
+    ],
+    "usefulness": {
+      "real_world_impact": 6,
+      "technical_innovation": 4,
+      "market_potential": 5,
+      "learning_value": 6,
+      "community_interest": 7,
+      "overall": 5.6
+    }
+  },
+  "references": {
+    "papers": [
+      {
+        "title": "Scikit-learn: Machine Learning in Python",
+        "url": "https://doi.org/10.48550/arxiv.1201.0490",
+        "year": 2012,
+        "citations": 63571,
+        "source": "Academic Paper"
+      },
+      {
+        "title": "Genetic algorithms in search, optimization, and machine learning",
+        "url": "https://doi.org/10.5860/choice.27-0936",
+        "year": 1989,
+        "citations": 49332,
+        "source": "Academic Paper"
+      },
+      {
+        "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+        "url": "https://doi.org/10.1016/c2009-0-19715-5",
+        "year": 2011,
+        "citations": 25709,
+        "source": "Academic Paper"
+      },
+      {
+        "title": "UCI Machine Learning Repository",
+        "url": "https://openalex.org/W3120740533",
+        "year": 2007,
+        "citations": 24319,
+        "source": "Academic Paper"
+      },
+      {
+        "title": "C4.5: Programs for Machine Learning",
+        "url": "https://openalex.org/W2125055259",
+        "year": 1992,
+        "citations": 23694,
+        "source": "Academic Paper"
+      },
+      {
+        "title": "Pattern Recognition and Machine Learning",
+        "url": "https://doi.org/10.1117/1.2819119",
+        "year": 2007,
+        "citations": 22075,
+        "source": "Academic Paper"
+      },
+      {
+        "title": "Genetic Algorithms in Search, Optimization and Machine Learning",
+        "url": "https://openalex.org/W1639032689",
+        "year": 1988,
+        "citations": 17770,
+        "source": "Academic Paper"
+      },
+      {
+        "title": "Proceedings of the 24th international conference on Machine learning",
+        "url": "https://doi.org/10.1145/1273496",
+        "year": 2007,
+        "citations": 11733,
+        "source": "Academic Paper"
+      }
+    ],
+    "repos": [
+      {
+        "title": "tensorflow/tensorflow",
+        "url": "https://github.com/tensorflow/tensorflow",
+        "stars": 194922,
+        "language": "C++",
+        "snippet": "An Open Source Machine Learning Framework for Everyone"
+      },
+      {
+        "title": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "stars": 160040,
+        "language": "Python",
+        "snippet": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both in"
+      },
+      {
+        "title": "microsoft/ML-For-Beginners",
+        "url": "https://github.com/microsoft/ML-For-Beginners",
+        "stars": 85520,
+        "language": "Jupyter Notebook",
+        "snippet": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all"
+      },
+      {
+        "title": "sherlock-project/sherlock",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "stars": 82609,
+        "language": "Python",
+        "snippet": "Hunt down social media accounts by username across social networks"
+      },
+      {
+        "title": "fighting41love/funNLP",
+        "url": "https://github.com/fighting41love/funNLP",
+        "stars": 80344,
+        "language": "Python",
+        "snippet": "\u4e2d\u82f1\u6587\u654f\u611f\u8bcd\u3001\u8bed\u8a00\u68c0\u6d4b\u3001\u4e2d\u5916\u624b\u673a/\u7535\u8bdd\u5f52\u5c5e\u5730/\u8fd0\u8425\u5546\u67e5\u8be2\u3001\u540d\u5b57\u63a8\u65ad\u6027\u522b\u3001\u624b\u673a\u53f7\u62bd\u53d6\u3001\u8eab\u4efd\u8bc1\u62bd\u53d6\u3001\u90ae\u7bb1\u62bd\u53d6\u3001\u4e2d\u65e5\u6587\u4eba\u540d\u5e93\u3001\u4e2d\u6587\u7f29\u5199\u5e93\u3001\u62c6\u5b57\u8bcd\u5178\u3001\u8bcd\u6c47\u60c5\u611f\u503c\u3001\u505c\u7528\u8bcd\u3001\u53cd\u52a8\u8bcd\u8868\u3001\u66b4\u6050\u8bcd\u8868\u3001\u7e41\u7b80\u4f53\u8f6c\u6362\u3001\u82f1\u6587\u6a21\u62df\u4e2d\u6587\u53d1\u97f3\u3001\u6c6a\u5cf0\u6b4c\u8bcd\u751f\u6210\u5668\u3001\u804c\u4e1a\u540d\u79f0\u8bcd\u5e93\u3001\u540c\u4e49\u8bcd\u5e93\u3001\u53cd\u4e49\u8bcd\u5e93\u3001\u5426\u5b9a\u8bcd\u5e93\u3001\u6c7d\u8f66\u54c1\u724c\u8bcd\u5e93\u3001\u6c7d\u8f66\u96f6\u4ef6\u8bcd\u5e93\u3001"
+      },
+      {
+        "title": "josephmisiti/awesome-machine-learning",
+        "url": "https://github.com/josephmisiti/awesome-machine-learning",
+        "stars": 72324,
+        "language": "Python",
+        "snippet": "A curated list of awesome Machine Learning frameworks, libraries and software."
+      },
+      {
+        "title": "scikit-learn/scikit-learn",
+        "url": "https://github.com/scikit-learn/scikit-learn",
+        "stars": 65940,
+        "language": "Python",
+        "snippet": "scikit-learn: machine learning in Python"
+      },
+      {
+        "title": "WerWolv/ImHex",
+        "url": "https://github.com/WerWolv/ImHex",
+        "stars": 53339,
+        "language": "C++",
+        "snippet": "\ud83d\udd0d A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM."
+      }
+    ],
+    "web": [
+      {
+        "title": "Pega Low-Code Development - Mobile App Software",
+        "url": "https://duckduckgo.com/y.js?ad_domain=pega.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=5rR5Dkkhv8-dS0l2MjrAsm1lNCl86gD6GCDuryDVM8afsuacfhQnRqjOWLvv8xwB2plBj7wgXjxpGwZWbqwCfA7T5dq5LudUL77RH60HEAvTZW_dNJJLdr7TPL4Azmr2MTC3LIJjiidKHFYvCrHaxxx5TESuRERAjX1dKVew3eA.SdWonl9SKio3eNNg9DC0eQ&rut=73a6b0d2b7f28e43f9a5ee2b0e2de71961194dad367df3087ad097395f06e013&u3=https://www.bing.com/aclick?ld=e8rsi6jnvOdeWDj5t2euwtOjVUCUzyIl0BntAjN4prO7k25_xaT_Ld2JLP-i496obnoAmV9DrzuJt8Kv-bO_Mzbg2qrR1wZKh0smuKIG5egsBGtKU4Y891zAVEBa_kN3uNyuf9lXTOggKzgY_ezrksK7G78VFLn-tSkorYCJIU64W2tzR1TV6MCBIo-e5BR0Oh4TP19NcJCtkkli_ZSXoDIdGDijI&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MDY3NTk4OTExNyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODc2MzA2NjYxMiUyNmRzX2FfY2lkJTNkNDAwODE3MjUwJTI2ZHNfYV9jYWlkJTNkMjE2NTg4NTAwOTMlMjZkc19hX2FnaWQlM2QxNjg0Njg0NTA0MDIlMjZkc19hX2xpZCUzZGt3ZC0zNjI0NjgwODMlMjYlMjZkc19lX2FkaWQlM2Q4MTA4OTExMDIwMzc5OCUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTgxMDg5MzE2MDE2NjgxJTNhbG9jLTkwJTI2JTI2ZHNfZV9uZXR3b3JrJTNkcyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cucGVnYS5jb20lMmZwcm9kdWN0cyUyZnBsYXRmb3JtJTJmbW9iaWxlLWFwcC1kZXZlbG9wbWVudCUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEJfSW5kaWFfTm9uYnJhbmRfTENfQXBwRGV2X0lBX0Jyb2FkX0NQTklEX0VOJTI2dXRtX3Rlcm0lM2Rtb2JpbGUlMjUyMGFwcCUyNTIwZGV2ZWxvcG1lbnQlMjZnbG9jJTNkMTU2NjY0JTI2dXRtX2NvbnRlbnQlM2RwY3JpZCU3YyU3Y3BrdyU3Y2t3ZC04MTA4OTMxNjAxNjY4MSUzYWxvYy05MCU3Y3BtdCU3Y3AlN2NwZHYlN2NjJTdjJTI2Z2NsaWQlM2RlZDRiODNmYzQyYWExZmMzNTBhMWVhMGM5MzI5NGVlOSUyNmdjbHNyYyUzZDNwLmRzJTI2JTI2bXNjbGtpZCUzZGVkNGI4M2ZjNDJhYTFmYzM1MGExZWEwYzkzMjk0ZWU5JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkQl9JbmRpYV9Ob25icmFuZF9MQ19BcHBEZXZfSUFfQnJvYWRfQ1BOSURfRU4lMjZ1dG1fdGVybSUzZG1vYmlsZSUyNTIwYXBwJTI1MjBkZXZlbG9wbWVudCUyNnV0bV9jb250ZW50JTNkTEMlMjUyME1vYmlsZSUyNTIwQXBwJTI1MjBEZXZlbG9wbWVudA&rlid=ed4b83fc42aa1fc350a1ea0c93294ee9&vqd=4-55739817493933676554154705347248158076&iurl={1}IG=C4706FCF7FFD448FAF1AE445257CC0FA&CID=338B0082B70862541C5E17CBB66A6329&ID=DevEx,5038.1",
+        "snippet": "Simplify how work gets done with Pega's smart, scalable, cost-effective low-code platform. Easily updateappsenterprise-wide to ensureappsperform in th"
+      },
+      {
+        "title": "\u200eMIT-WPU ILIP App - App Store",
+        "url": "https://apps.apple.com/in/app/mit-wpu-ilip/id6760546532",
+        "snippet": "Clicking on a subject shows day-wiseattendancewith the teaching faculty's name and their profile. Semester-wiseAttendance: Presents statistical and gr"
+      },
+      {
+        "title": "mitwpu \u00b7 GitHub Topics \u00b7 GitHub",
+        "url": "https://github.com/topics/mitwpu",
+        "snippet": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+      },
+      {
+        "title": "LectureLogger | Free College & University Attendance Tracking App",
+        "url": "https://lecturelogger.com/",
+        "snippet": "LectureLogger offers free professor access this semester. Our dynamic QR code check-ins, real-time analytics, andstudentappmakeattendancetracking simp"
+      },
+      {
+        "title": "How To Create Online Attendance App Using MIT App Inventor | Artificial ...",
+        "url": "https://www.youtube.com/watch?v=VVadnwyqVDE",
+        "snippet": "How To Create OnlineAttendanceAppUsing MITAppInventor | Artificial Intelligence Applications. Using thisappyou can takeattendanceof yourstudentsor cla"
+      },
+      {
+        "title": "MIT App Inventor",
+        "url": "https://appinventor.mit.edu/",
+        "snippet": "March 14, 2026 \u2014 This year we celebrated the Pi Day (3/14) by hosting 20 middle- and high-schoolstudentsfrom the greater Boston area participating in "
+      }
+    ]
+  }
+}

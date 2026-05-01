@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project Indolance — Originality & Plagiarism Checker for Research Ideas.">
+    <title>Project Indolance — Research Originality Engine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <div class="logo-group">
+                <div class="logo-dot"></div>
+                <div>
+                    <h1 class="logo-text">Project Indolance</h1>
+                    <p class="logo-sub">Research Originality Engine</p>
+                </div>
+            </div>
+            <div class="header-status" id="headerStatus">
+                <span class="status-dot"></span>
+                <span class="status-text">Ready</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Step 1: User Input -->
+        <section class="input-section" id="inputSection">
+            <div class="input-header">
+                <div class="step-circle">1</div>
+                <div>
+                    <h2>Describe Your Research Idea</h2>
+                    <p class="section-desc">Tell us what you're working on. We'll check how original it is — locally and globally.</p>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="ideaInput">Your Idea / Project Description</label>
+                <textarea id="ideaInput" rows="4" placeholder="e.g. I'm building an IoT network security monitor that uses machine learning for intrusion detection on ESP32 edge devices..."></textarea>
+            </div>
+
+            <div class="input-row">
+                <div class="input-group flex-1">
+                    <label for="keywordsInput">Keywords (comma-separated)</label>
+                    <input type="text" id="keywordsInput" placeholder="e.g. IoT, machine learning, network security, ESP32">
+                </div>
+                <div class="input-group flex-1">
+                    <label for="tagsInput">Tags / Categories (comma-separated)</label>
+                    <input type="text" id="tagsInput" placeholder="e.g. cybersecurity, embedded systems, AI, edge computing">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="topicsInput">Search Topics for Database Lookup (comma-separated)</label>
+                <input type="text" id="topicsInput" placeholder="e.g. Network Security, IoT Security, Machine Learning" value="Network Security, IoT Security, Machine Learning, Embedded Systems, Cloud Computing">
+            </div>
+
+            <div class="input-actions">
+                <button class="btn-run" id="btnRunAll" onclick="runFullPipeline()">
+                    <span class="btn-dot"></span>
+                    Run Originality Check
+                </button>
+                <p class="input-hint" id="inputHint">Searches Semantic Scholar, CrossRef, OpenAlex & GitHub to check your idea's originality.</p>
+            </div>
+
+            <!-- Progress -->
+            <div class="progress-section" id="progressSection" style="display:none;">
+                <div class="progress-steps">
+                    <div class="progress-step" id="pStep1">
+                        <div class="step-circle small">A</div>
+                        <span>Scanning local files</span>
+                        <span class="step-status" id="pStatus1"></span>
+                    </div>
+                    <div class="progress-step" id="pStep2">
+                        <div class="step-circle small">B</div>
+                        <span>Searching research databases & GitHub</span>
+                        <span class="step-status" id="pStatus2"></span>
+                    </div>
+                    <div class="progress-step" id="pStep3">
+                        <div class="step-circle small">C</div>
+                        <span>Analyzing originality &amp; plagiarism</span>
+                        <span class="step-status" id="pStatus3"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results (hidden until analysis runs) -->
+        <div class="results-section" id="resultsSection" style="display:none;">
+
+            <!-- Dual Originality Scores -->
+            <section class="card" id="dualScoreCard">
+                <div class="card-header">
+                    <div class="step-circle">2</div>
+                    <div>
+                        <h2>Originality Scores</h2>
+                        <p class="section-desc">How original your idea is — locally (your files) vs globally (research databases)</p>
+                    </div>
+                </div>
+                <div class="dual-score-layout">
+                    <!-- Local Score -->
+                    <div class="score-card local-score">
+                        <div class="score-card-label">Local Originality</div>
+                        <div class="score-card-sub">vs your local files</div>
+                        <div class="score-circle-wrap">
+                            <canvas id="localScoreChart" width="180" height="180"></canvas>
+                            <div class="score-center" id="localScoreValue">—</div>
+                        </div>
+                        <div class="score-detail">
+                            <span class="detail-label">Plagiarism</span>
+                            <span class="detail-value" id="localPlagPct">0%</span>
+                        </div>
+                        <div class="score-detail">
+                            <span class="detail-label">Files Compared</span>
+                            <span class="detail-value" id="localFileCount">0</span>
+                        </div>
+                    </div>
+                    <!-- Global Score -->
+                    <div class="score-card global-score">
+                        <div class="score-card-label">Global Originality</div>
+                        <div class="score-card-sub">vs research databases</div>
+                        <div class="score-circle-wrap">
+                            <canvas id="globalScoreChart" width="180" height="180"></canvas>
+                            <div class="score-center" id="globalScoreValue">—</div>
+                        </div>
+                        <div class="score-detail">
+                            <span class="detail-label">Plagiarism</span>
+                            <span class="detail-value" id="globalPlagPct">0%</span>
+                        </div>
+                        <div class="score-detail">
+                            <span class="detail-label">Sources Checked</span>
+                            <span class="detail-value" id="globalResultCount">0</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Status Counts -->
+                <div class="status-bar">
+                    <div class="status-item">
+                        <div class="status-dot-lg red"></div>
+                        <span class="status-val" id="statExists">0</span>
+                        <span class="status-lbl">Already Exists</span>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-dot-lg amber"></div>
+                        <span class="status-val" id="statSimilar">0</span>
+                        <span class="status-lbl">Similar Work</span>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-dot-lg green"></div>
+                        <span class="status-val" id="statOriginal">0</span>
+                        <span class="status-lbl">Original</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Plagiarism Sources -->
+            <section class="card" id="plagiarismCard">
+                <div class="card-header">
+                    <div class="step-circle">3</div>
+                    <div>
+                        <h2>Plagiarism Sources</h2>
+                        <p class="section-desc">Matching sources from research databases with similarity scores</p>
+                    </div>
+                </div>
+                <div class="plagiarism-list" id="plagiarismList">
+                    <div class="empty-state">Run analysis to detect plagiarism sources</div>
+                </div>
+            </section>
+
+            <!-- Project Insights -->
+            <section class="card insight-card" id="insightsCard">
+                <div class="card-header">
+                    <div class="step-circle">4</div>
+                    <div>
+                        <h2>Project Insights</h2>
+                        <p class="section-desc">Should you build this? Pros, cons, and real-world assessment</p>
+                    </div>
+                </div>
+                <div id="insightsContent">
+                    <div class="empty-state">Run analysis to generate insights</div>
+                </div>
+            </section>
+
+            <!-- Reference Materials -->
+            <section class="card" id="referencesCard">
+                <div class="card-header">
+                    <div class="step-circle">5</div>
+                    <div>
+                        <h2>Reference Materials</h2>
+                        <p class="section-desc">Top papers, repositories, and resources for your project</p>
+                    </div>
+                </div>
+                <div id="referencesContent">
+                    <div class="empty-state">Run analysis to find reference materials</div>
+                </div>
+            </section>
+
+            <!-- Local Similar Files -->
+            <section class="card" id="localFilesCard">
+                <div class="card-header">
+                    <div class="step-circle">6</div>
+                    <div>
+                        <h2>Local File Matches</h2>
+                        <p class="section-desc">How your idea compares to your own local files</p>
+                    </div>
+                </div>
+                <div class="similar-list" id="localFilesList">
+                    <div class="empty-state">Run analysis to compare against local files</div>
+                </div>
+            </section>
+
+            <!-- Keyword Overlap -->
+            <section class="card" id="overlapCard">
+                <div class="card-header">
+                    <div class="step-circle">7</div>
+                    <h2>Keyword Overlap</h2>
+                </div>
+                <div class="chart-wrap">
+                    <canvas id="overlapChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Gap Finder -->
+            <section class="card" id="gapsCard">
+                <div class="card-header">
+                    <div class="step-circle">8</div>
+                    <div>
+                        <h2>Gap Finder</h2>
+                        <p class="section-desc">Trending topics missing from your work</p>
+                    </div>
+                </div>
+                <div class="gaps-grid" id="gapsList">
+                    <div class="empty-state">Run analysis to discover gaps</div>
+                </div>
+            </section>
+
+            <!-- Similar Work (Global) -->
+            <section class="card" id="similarCard">
+                <div class="card-header">
+                    <div class="step-circle">9</div>
+                    <h2>Similar Existing Work (Global)</h2>
+                </div>
+                <div class="similar-list" id="similarList">
+                    <div class="empty-state">Run analysis to find similar projects</div>
+                </div>
+            </section>
+
+            <!-- Connection Map -->
+            <section class="card" id="mapCard">
+                <div class="card-header">
+                    <div class="step-circle">10</div>
+                    <div>
+                        <h2>Connection Map</h2>
+                        <p class="section-desc">Your keywords vs global trends</p>
+                    </div>
+                </div>
+                <div class="map-wrap" id="mapContainer">
+                    <div class="empty-state">Map appears after analysis</div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Toast -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <footer class="footer">
+        <p>Project Indolance v2.0 — Powered by Semantic Scholar, CrossRef, OpenAlex & GitHub</p>
+    </footer>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>
